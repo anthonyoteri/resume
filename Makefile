@@ -1,4 +1,4 @@
-BASENAME ?= oteri,\ anthony
+BASENAME ?= anthony_oteri
 
 SOURCE = $(BASENAME).tex
 RESULT = $(BASENAME).pdf

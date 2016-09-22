@@ -24,14 +24,14 @@
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+\documentclass[11pt,letterpaper,roman]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
 
 \moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
-\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+\moderncvcolor{red} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
 
-\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+%\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
 
-\usepackage[scale=0.75]{geometry} % Reduce document margins
+\usepackage[scale=.80]{geometry} % Reduce document margins
 %\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
 %\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
 
@@ -39,20 +39,20 @@
 %	NAME AND CONTACT INFORMATION SECTION
 %----------------------------------------------------------------------------------------
 
-\firstname{John} % Your first name
-\familyname{Smith} % Your last name
+\firstname{Anthony} % Your first name
+\familyname{Oteri} % Your last name
 
 % All information in this block is optional, comment out any lines you don't need
-\title{Curriculum Vitae}
-\address{123 Broadway}{City, State 12345}
-\mobile{(000) 111 1111}
-\phone{(000) 111 1112}
-\fax{(000) 111 1113}
-\email{john@smith.com}
-\homepage{staff.org.edu/~jsmith}{staff.org.edu/$\sim$jsmith} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
-\extrainfo{additional information}
+%\title{Curriculum Vitae}
+\address{55 Bette Circle}{Vernon, CT 06066}
+\mobile{(774) 285-4003}
+%\phone{(000) 111 1112}
+%\fax{(000) 111 1113}
+\email{anthony.oteri@gmail.com}
+\homepage{http://www.anthonyoteri.com}{www.anthonyoteri.com} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+%\extrainfo{additional information}
 \photo[70pt][0.4pt]{pictures/picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
-\quote{"A witty and playful quotation" - John Smith}
+%\quote{"A witty and playful quotation" - John Smith}
 
 %----------------------------------------------------------------------------------------
 
@@ -64,21 +64,21 @@
 
 % To remove the cover letter, comment out this entire block
 
-\clearpage
+%\clearpage
 
-\recipient{HR Department}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
-\date{\today} % Letter date
-\opening{Dear Sir or Madam,} % Opening greeting
-\closing{Sincerely yours,} % Closing phrase
-\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+%\recipient{HR Department}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+%\date{\today} % Letter date
+%\opening{To whom it may concern,} % Opening greeting
+%\closing{Sincerely,} % Closing phrase
+%\enclosure[Attached]{Resume} % List of enclosed documents
 
-\makelettertitle % Print letter title
+%\makelettertitle % Print letter title
 
-\lipsum[1-3] % Dummy text
+%\lipsum[1-3] % Dummy text
 
-\makeletterclosing % Print letter signature
+%\makeletterclosing % Print letter signature
 
-\newpage
+%\newpage
 
 %----------------------------------------------------------------------------------------
 %	CURRICULUM VITAE
@@ -87,106 +87,135 @@
 \makecvtitle % Print the CV title
 
 %----------------------------------------------------------------------------------------
-%	EDUCATION SECTION
+%	SUMMARY SECTION
 %----------------------------------------------------------------------------------------
 
-\section{Education}
+\section{Summary}
 
-\cventry{2011--2012}{Masters of Commerce}{The University of California}{Berkeley}{\textit{GPA -- 8.0}}{First Class Honours}  % Arguments not required can be left empty
-\cventry{2007--2010}{Bachelor of Business Studies}{The University of California}{Berkeley}{\textit{GPA -- 7.5}}{Specialized in Commerce}
-
-\section{Masters Thesis}
-
-\cvitem{Title}{\emph{Money Is The Root Of All Evil -- Or Is It?}}
-\cvitem{Supervisors}{Professor James Smith \& Associate Professor Jane Smith}
-\cvitem{Description}{This thesis explored the idea that money has been the cause of untold anguish and suffering in the world. I found that it has, in fact, not.}
+\cvitem{}
+{
+Seasoned software engineer with over 10 years professional experience designing and delivering enterprise class server software and APIs for Linux, Unix, and Windows environments.  Highly proficient in multiple languages and a variety of current technologies, covering a unique combination of creativity and analytic problem solving skills with the ability to evaluate requirements, design solutions, and deliver quality results.
+}
 
 %----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE SECTION
 %----------------------------------------------------------------------------------------
 
-\section{Experience}
+\section{Work Experience}
 
-\subsection{Vocational}
-
-\cventry{2012--Present}{1\textsuperscript{st} Year Analyst}{\textsc{Lehman Brothers}}{Los Angeles}{}{Developed spreadsheets for risk analysis on exotic derivatives on a wide array of commodities (ags, oils, precious and base metals), managed blotter and secondary trades on structured notes, liaised with Middle Office, Sales and Structuring for bookkeeping.
-\newline{}\newline{}
-Detailed achievements:
+\cventry{2013--Present}{Edgeware Inc.}{Senior Software Engineer}{Stockholm, Sweden}{}
+{
 \begin{itemize}
-\item Learned how to make amazing coffee
-\item Finally determined the reason for \textsc{PC LOAD LETTER}:
-\begin{itemize}
-\item Paper jam
-\item Software issues:
-\begin{itemize}
-\item Word not sending the correct data to printer
-\item Windows trying to print in letter format
+\item Member of cross-functional Agile development team responsible for enhancing and maintaining Edgeware's Distributed Video Delivery Network Solution.
+\item Focused primarily on the development of Convoy, a distributed, highly-available, content management, monitoring, and routing system written in Python. 
+\item Team lead, and lead developer for TV Analytics: a monitoring and analytics engine, API, and front-end for collecting and analyzing session, bandwidth, and user behavior, integrated with Elasticsearch and Kibana.
+\item Extended custom Linux kernel modules and services to support dynamic ad-replacement in VOD and catch-up content to deliver a targeted, personalized viewing experience to IPTV and OTT viewers.
+\item Product owner and lead developer for Edgeware's Multi-Protocol Gateway software which adapted various external and internal APIs, as well as performed customizable RTSP routing between clients and streaming video servers.
+\item Worked both remotely and on-site with customers around the globe to determine project requirements and deliverable and to propose viable solutions using Edgeware's technology stack.
+\item Maintained Edgeware's legacy Origin2 Management Software, which included traveling on-site with customers to provide in-person support.
 \end{itemize}
-\item Coffee spilled inside printer
+}
+
+%-----
+\cventry{2011--2013}{Nuance Communications, Inc.}{Senior JAVA Software Engineer}{Burlington, MA}{}
+{\begin{itemize}
+\item Member of the EditScript Server development team responsible for Dragon Medical 360 | eScription: A background speech recognition solution designed to fully integrate with the EHR and streamline clinical documentation for the large healthcare enterprise. 
+\item Worked closely with Quality Assurance team to model, profile, and performance test various clinician workflows, and to fix bottlenecks, which resulted in significant improvements in scalability and overall performance.
+\item Extended REST APIs to support Dragon Medical 360 | Mobile Recorder: An iPhone application allowing clinicians to search, dictate upon, and manage both inpatient and outpatient visits.
+%\item Enhanced inbound HL7 interface to support SIU message types to handle outpatient scheduling information.
+%\item Worked in Agile development team to deliver support for the Deferred Self-Edit Workflow, which allows clinicians to dictate, and subsequently edit and sign medical records from within the institution's EHR system.
+%\item Triage, fixed, and addressed Help Requests, Feature Requests, and Bug Reports from both external and internal groups.
+\item Authored multiple Component Specifications, Design Specifications, and Functional Specifications for various projects related to the EditScript Server.
+%\item Peer-reviewed code for bugs, inefficiencies, and adherence to company coding standards and guidelines.
 \end{itemize}
-\item Broke the office record for number of kitten pictures in cubicle
-\end{itemize}}
+}
 
-%------------------------------------------------
+%-----
+\cventry{2008--2011}{Livewire Mobile, Inc.}{Senior Software Engineer}{Littleton, MA}{}
+{
+\begin{itemize}
+\item Responsible for developing and maintaining the full-track music service.
+\item Designed, integrated, developed, and tested core components of Mediadrome -- A direct-to-consumer storefront application service powered by Grails, which enables recording artists and music labels to sell digital media such as full-track music, ringtones, graphics, and videos as well as physical merchandise directly to their fans.
+%\item Lead engineer responsible for designing, developing, and overseeing a year-long migration process which successfully moved and consolidated over 90TB of live content with zero-downtime. 
+\item Member of the company's first Agile development team, designing and implementing a considerable portion of the next-generation, multi-content ingestion and aggregation system using J2EE, Spring MVC, Hibernate, XML, XPath, XSLT, and jBPM, as part of a new Integrated-Storefront product. 
+%\item Delivered a large portion of the first generation Infuse storefront by incorporating legacy WAP and Rich-Client server application with a content delivery platform contributed by a partner.
+\end{itemize}
+}
 
-\cventry{2010--2011}{Summer Intern}{\textsc{Lehman Brothers}}{Los Angeles}{}{Rated "truly distinctive" for Analytical Skills and Teamwork.}
+%-----
+\cventry{2005--2008}{NMS Communications, Inc.}{Engineer II}{Framingham, MA}{}
+{
+\begin{itemize}
+\item Technical lead for many projects related to the MyCaller Ringback Platform specializing in the areas of system and application services.
+%\item Aided in the design and development of the release-lab, responsible for source-control, compilation, packaging, and deployment of code for both Solaris and Linux environments.
+\item Minimized customer support requests by implementing a framework using Perl and XML for the automation of documented procedures including system installation, OS and package configuration, and software upgrade.
+\end{itemize}
+}
 
-%------------------------------------------------
-
-\subsection{Miscellaneous}
-
-\cventry{2008--2009}{Computer Repair Specialist}{Buy More}{Burbank}{}{Worked in the Nerd Herd and helped to solve computer problems by asking customers to turn their computers off and on again.}
-
-%----------------------------------------------------------------------------------------
-%	AWARDS SECTION
-%----------------------------------------------------------------------------------------
-
-\section{Awards}
-
-\cvitem{2011}{School of Business Postgraduate Scholarship}
-\cvitem{2010}{Top Achiever Award -- Commerce}
-
-%----------------------------------------------------------------------------------------
-%	COMPUTER SKILLS SECTION
-%----------------------------------------------------------------------------------------
-
-\section{Computer skills}
-
-\cvitem{Basic}{\textsc{java}, Adobe Illustrator}
-\cvitem{Intermediate}{\textsc{python}, \textsc{html}, \LaTeX, OpenOffice, Linux, Microsoft Windows}
-\cvitem{Advanced}{Computer Hardware and Support}
-
-%----------------------------------------------------------------------------------------
-%	COMMUNICATION SKILLS SECTION
-%----------------------------------------------------------------------------------------
-
-\section{Communication Skills}
-
-\cvitem{2010}{Oral Presentation at the California Business Conference}
-\cvitem{2009}{Poster at the Annual Business Conference in Oregon}
+%-----
+\cventry{2004--2005}{Funkitron, Inc.}{Programmer}{Boxford, MA}{}
+{
+\begin{itemize}
+\item Lead developer on ``Poker Superstars: Season I,'' a game targeted at commercial distribution on Microsoft Windows
+\item Enhanced AOL's popular Slingo suite of games by extending both client and server code to incorporate advertisements, and to bring outdated and neglected games into full production quality.
+\end{itemize}
+}
 
 %----------------------------------------------------------------------------------------
-%	LANGUAGES SECTION
+%	EDUCATION SECTION
 %----------------------------------------------------------------------------------------
 
-\section{Languages}
+\section{Education}
 
-\cvitemwithcomment{English}{Mothertongue}{}
-\cvitemwithcomment{Spanish}{Intermediate}{Conversationally fluent}
-\cvitemwithcomment{Dutch}{Basic}{Basic words and phrases only}
+\cventry{2004--2010}{M.S. Electrical Engineering}{Worcester Polytechnic Institute}{Worcester, MA}{}
+{Concentration in Computer Engineering}
 
-%----------------------------------------------------------------------------------------
-%	INTERESTS SECTION
-%----------------------------------------------------------------------------------------
+\cventry{2000--2004}{B.S. Computer Science}{Worcester Polytechnic Institute}{Worcester, MA}{}
+{Minor in Electrical and Computer Engineering}
 
-\section{Interests}
+\subsection{Projects}
 
-\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
-
-\cvlistdoubleitem{Piano}{Chess}
-\cvlistdoubleitem{Cooking}{Dancing}
-\cvlistitem{Running}
+\cventry{2003--2004}{Applying Cryptography to Physical Security}{}{}{}
+{
+Designed and implemented an MSP-430 based door lock controller and software key management system using C++ and .NET, using Smart Cards and a custom viral-networking protocol secured with AES-256.
+}
 
 %----------------------------------------------------------------------------------------
+%	TECHNICAL SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Technical Skills}
+
+\cvitem{Software Development}{Solid experience in all aspects of the software development life-cycle including: Agile, component-based software engineering, test-driven development, object-oriented design, software architecture, technical documentation, quality assurance, hosting deployment, and embedded systems development}
+
+\subsection{Programming Languages}
+
+\cvitem{}
+{
+\begin{itemize}
+\item Python, 2 and 3
+\item Java (EJB, Spring MVC, Hibernate)
+\item C and C++
+\item Perl
+\item Bash / Shell Scripting
+\item Some experience with: Groovy, JavaScript, C\#, PHP.
+\end{itemize}
+}
+
+\subsection{Software and Tooling}
+
+\cvitem{}
+{
+\begin{itemize}
+\item Red Hat and Debian based Linux
+\item Version Control: Git, Subversion, CVS, and Perforce
+\item Linux Containers Frameworks: Docker and LXC
+\item Databases: MySQL / MariaDB, Microsoft SQL Server, Elasticsearch, Cassandra
+\item Virtualization platforms and tools: KVM, VMware, OpenStack, VirtualBox, OpenNebula, and Vagrant
+\item Continuous Integration and tools: Jenkins, Github.
+\item CMake / GMake, ELK Stack, Grails, HLS and Smooth, Kafka, \LaTeXe, Markdown, RTSP, XSLT, Zookeeper
+\end{itemize}
+}
+
 
 \end{document}

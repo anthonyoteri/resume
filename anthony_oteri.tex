@@ -26,12 +26,12 @@
 
 \documentclass[11pt,letterpaper,roman]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
 
-\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
 \moderncvcolor{red} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
 
 %\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
 
-\usepackage[scale=.80]{geometry} % Reduce document margins
+\usepackage[scale=.85]{geometry} % Reduce document margins
 %\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
 %\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
 
@@ -43,14 +43,14 @@
 \familyname{Oteri} % Your last name
 
 % All information in this block is optional, comment out any lines you don't need
-%\title{Curriculum Vitae}
+\title{Curriculum Vitae}
 \address{55 Bette Circle}{Vernon, CT 06066}
 \mobile{(774) 285-4003}
 %\phone{(000) 111 1112}
 %\fax{(000) 111 1113}
 \email{anthony.oteri@gmail.com}
 \homepage{http://www.anthonyoteri.com}{www.anthonyoteri.com} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
-%\extrainfo{additional information}
+%\extrainfo{Skype: AOteriEdge}
 \photo[70pt][0.4pt]{pictures/picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
 %\quote{"A witty and playful quotation" - John Smith}
 
@@ -66,19 +66,26 @@
 
 %\clearpage
 
-%\recipient{HR Department}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
-%\date{\today} % Letter date
-%\opening{To whom it may concern,} % Opening greeting
-%\closing{Sincerely,} % Closing phrase
-%\enclosure[Attached]{Resume} % List of enclosed documents
+\recipient{HR Department}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+\date{\today} % Letter date
+\opening{Dear HR Manager} % Opening greeting
+\closing{Sincerely,} % Closing phrase
+\enclosure[Attached]{Resume} % List of enclosed documents
 
-%\makelettertitle % Print letter title
+\makelettertitle % Print letter title
 
-%\lipsum[1-3] % Dummy text
+Are you searching for a software engineer with a proven track record for developing enterprise-quality applications using current technologies and software development methodologys? If so, please consider my enclosed resume.
 
-%\makeletterclosing % Print letter signature
+Since 2013 I have been a critical player in the R\&D team at Edgeware, where my contributions have helped the company become a market leader in our segment.  At Edgeware, we build hardware and software systems that deliver TV content over IP networks, providing operators the ability to deliver an outstanding viewing experience to their customers at massive scales.  The Edgeware TV servers automatically cache popular TV shows close to the viewer, insert personalized ads, pause live TV, and perform on-the-fly transcoding of media formats, as well as the TV Analyics which provides operators unique insights into viewer behavior.  
 
-%\newpage
+With over 15 years of professional experience, I have extensively participated in all aspects of the software development lifecycle, from communicating with customers to determine feature requirements, producing detailed specifications, to overseeing the complete software development process.  I pride myself in keeping current with modern technologies, languages, and methodologies, and with producing well-written, quality software and documentation.
+
+My extensive software development experience and ability to learn and adapt quickly will enable me to step into a role as a lead software engineer or engineering manager and hit the ground running.  I will follow up with you in the next few days, and I may be reached at (774)285-4003.  I look forward to speaking with you soon.
+
+
+\makeletterclosing % Print letter signature
+
+\newpage
 
 %----------------------------------------------------------------------------------------
 %	CURRICULUM VITAE
@@ -94,7 +101,7 @@
 
 	\cvitem{}
 	{
-		Seasoned software engineer with over 10 years professional experience designing and delivering enterprise class server software and APIs for Linux, Unix, and Windows environments.  Highly proficient in multiple languages and a variety of current	technologies, covering a unique combination of creativity and analytic problem solving skills with the ability to evaluate requirements, design solutions, and deliver quality	results.
+		Seasoned software engineer with over 15 years professional experience designing and delivering software and APIs for Linux, Unix, and Windows environments.  Highly proficient in multiple languages and a current technologies, covering a unique combination of creativity and analytic problem solving skills with the ability to evaluate requirements, design solutions, and deliver quality results.  Strong proponent of test-driven development and Agile / Lean software methodologies.
 	}
 
 %----------------------------------------------------------------------------------------
@@ -165,6 +172,7 @@
 	\end{itemize}
 	}
 
+
 %----------------------------------------------------------------------------------------
 %	EDUCATION SECTION
 %----------------------------------------------------------------------------------------
@@ -181,39 +189,50 @@
 		Minor in Electrical and Computer Engineering
 	}
 
-\subsection{Projects}
-
-	\cventry{2003--2004}	{Applying Cryptography to Physical Security}										{}{}{}
-	{
-		Designed and implemented an MSP-430 based door lock controller and software key management system using C++ and .NET, using Smart Cards and a custom viral-networking protocol secured with AES-256.
-	}
+%\subsection{Projects}
+%
+%	\cventry{2003--2004}	{Applying Cryptography to Physical Security}										{}{}{}
+%	{
+%		Designed and implemented an MSP-430 based door lock controller and software key management system using C++ and .NET, using Smart Cards and a custom viral-networking protocol secured with AES-256.
+%	}
+%
+%	\cventry{2002-2003}		{Results of Electronic Information Exchange in a Free Society}						{}{}{}
+%	{
+%		Studied the social effects of the Internet and technology upon society by exploring and data-mining various usage patterns among children and adults.
+%	}
 
 %----------------------------------------------------------------------------------------
 %	TECHNICAL SKILLS SECTION
 %----------------------------------------------------------------------------------------
 
-\section{Technical Skills}
-
-	\cvitem
-	{Software Development}
-	{
-		Solid experience in all aspects of the software development life-cycle including: Agile, component-based software engineering, test-driven development, object-oriented design, software architecture, technical documentation, quality assurance, hosting deployment, and embedded systems development
-	}
+\section{Technical Qualifications}
 
 \subsection{Programming Languages}
 %---------------------------------
 
-	\cvlistdoubleitem{Python, 2 and 3}							{Java (EJB, Spring MVC, Hibernate)}
-	\cvlistdoubleitem{C and C++}								{Perl}
-	\cvlistdoubleitem{Bash / Shell Scripting}					{Some experience with Groovy, JavaScript, C\#, PHP.}
+	\cvlistdoubleitem	{Python, 2 and 3}							{Java}
+	\cvlistdoubleitem	{C and C++}									{Perl}
+	\cvlistitem 		{Shell Scripting}					
+
+\subsection{Frameworks}
+
+	\cvlistdoubleitem	{Gevent, Twisted, Django}					{Spring MVC}
+	\cvlistdoubleitem	{Hibernate, ORMLite}						{Groovy on Grails}
+
+\subsection{Operating Systems}
+
+	\cvlistdoubleitem 	{Linux, Redhat \& Debian}					{Microsoft Windows}
+	\cvlistdoubleitem	{Unix, BSD \& HPUX}							{Mac OSX}
+	\cvlistitem 		{iOS, android}
 
 \subsection{Software and Tooling}
 %--------------------------------
 
-	\cvlistdoubleitem{Linux}														{Git, Subversion, CVS, and Perforce}
-	\cvlistdoubleitem{Docker and LXC}												{MySQL / MariaDB, Microsoft SQL Server, Elasticsearch, Cassandra}
-	\cvlistdoubleitem{KVM, VMware, OpenStack, VirtualBox, OpenNebula, and Vagrant}	{Jenkins, Github.}
-	\cvlistitem{CMake / GMake, ELK Stack, Grails, HLS and Smooth, Kafka, \LaTeXe, Markdown, RTSP, XSLT, Zookeeper}
-
+	\cvlistdoubleitem 	{Git, Subversion, Perforce}					{Docker, LXC}
+	\cvlistdoubleitem	{ELK Stack}									{LAMP}
+	\cvlistdoubleitem	{VMWare ESX, OpenNebula, KVM}				{MySQL, Microsoft SQL Server}
+	\cvlistdoubleitem	{\LaTeXe, Markdown}							{Elasticsearch, Cassandra}
+	\cvlistdoubleitem 	{Memcache, Redis}							{Kafka, Zookeeper}
+	\cvlistitem 		{GNU C++ Tool Chain}
 
 \end{document}
